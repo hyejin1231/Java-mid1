@@ -1,0 +1,21 @@
+package lang.string.method;
+
+/**
+ * 3. String 클래스
+ * - 주요 메서드 2
+ */
+public class StringChangeMain1
+{
+	public static void main(String[] args)
+	{
+		String str = "Hello, Java! Welcome to Java";
+		
+		System.out.println("인덱스 7부터의 부분 문자열 : " + str.substring(7)); //Java! Welcome to Java
+		System.out.println("인덱스 7부터의 부분 문자열 : " + str.substring(7, 12)); //Java!
+		
+		System.out.println("문자열 결합 : " + str.concat("!!!")); // Hello, Java! Welcome to Java!!!
+		
+		System.out.println("'Java' 를 'World'로 대체 : " + str.replace("Java", "World")); // Hello, World! Welcome to World
+		System.out.println("첫 번째 'Java'를 'World'로 대체 : " + str.replaceFirst("Java", "World")); // Hello, World! Welcome to Java
+	}
+}
