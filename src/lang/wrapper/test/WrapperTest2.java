@@ -1,5 +1,6 @@
 package lang.wrapper.test;
 
+// parseDouble
 public class WrapperTest2
 {
 	public static void main(String[] args)

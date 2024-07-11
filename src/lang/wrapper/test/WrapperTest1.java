@@ -1,5 +1,6 @@
 package lang.wrapper.test;
 
+// parseInt
 public class WrapperTest1
 {
 	public static void main(String[] args)
