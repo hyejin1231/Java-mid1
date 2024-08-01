@@ -37,7 +37,7 @@ public class Library
 
 	}
 
-	// Book 객체는 Library만 사용하도록 ! 
+	// Book 객체는 Library만 사용하도록 !
 	private static class Book {
 		private String title;
 		private String author;
