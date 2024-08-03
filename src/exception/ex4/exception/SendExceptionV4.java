@@ -1,0 +1,18 @@
+package exception.ex4.exception;
+
+
+/**
+ * 실무 예외 처리 방안 2 - 구현
+ */
+public class SendExceptionV4 extends NetworkClientExceptionV4 {
+    private final String sendData;
+
+    public SendExceptionV4(String sendData, String message) {
+        super(message);
+        this.sendData = sendData;
+    }
+
+    public String getSendData() {
+        return sendData;
+    }
+}
